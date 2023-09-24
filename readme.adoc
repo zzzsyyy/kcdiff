@@ -1,0 +1,27 @@
+= kcdiff
+
+:description: A Tool to Diff Kernel Configs
+:url-repo: https://github.com/zzzsyyy/kcdiff
+
+link:https://builtwithnix.org/[image:https://img.shields.io/static/v1?logo=nixos&logoColor=white&label=&message=Built%20with%20Nix&color=41439a[build with nix]]
+link:https://en.wikipedia.org/wiki/BSD_License[image:https://img.shields.io/badge/License-BSD-blue.svg[BSD-3]]
+
+=== Usage
+
+```bash
+kcdiff config_1 config_2
+```
+
+=== Build
+
+```bash
+nix develop
+
+nix build
+```
+
+after changing `go.mod`, please using
+
+```bash
+gomod2nix
+```
